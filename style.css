@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    text-align: center;
+}
+
+.heading{
+    margin-top: 10%;
+    margin-bottom: 1.5%;
+}
+
+.enter-num{
+    height: 1.3rem;
+    width: 8rem;
+    margin-bottom:1.5%;
+}
+button{
+    height: 1.5rem;
+    width: 5rem;
+    background-color: cornsilk;
+    border-color: slategrey;
+    border-radius:10% ;
+}
+.result{
+    margin-top: 0.8rem;
+}
+
+.Start-game:disabled{
+  cursor: not-allowed;
+}
